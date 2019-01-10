@@ -11,7 +11,8 @@
           Votre CAPEB" />
     <meta property="og:image" content="img/logo_capeb.png" />
     <meta charset="utf-8">
-    <link href="css/mon_site.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/<?= $_GET['bg']? $_GET['bg']: "mon_site" ?>.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <style type="text/css">
         [class*="col"] { margin-bottom: 20px; }
